@@ -1,0 +1,14 @@
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\bin\Debug\SistemaControleEntrega.exe.config
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.csprojResolveAssemblyReference.cache
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.Form1.resources
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.Properties.Resources.resources
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.csproj.GenerateResource.Cache
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\bin\Debug\SistemaControleEntrega.exe
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\bin\Debug\SistemaControleEntrega.pdb
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.exe
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.pdb
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.Exibir.resources
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.Form2.resources
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.TelaPrincipal.resources
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.ClientesForm.resources
+C:\Users\Douglas\Desktop\SistemaControl\SistemaControleEntrega\SistemaControleEntrega\obj\Debug\SistemaControleEntrega.ExibirListaClientes.resources

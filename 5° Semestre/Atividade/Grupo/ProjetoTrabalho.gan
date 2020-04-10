@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2016-04-28" view-index="1" gantt-divider-location="325" resource-divider-location="280" version="2.7.2" locale="pt_BR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="49" order="0"/>
+        <field id="tpd4" name="Data inicial" width="24" order="1"/>
+        <field id="tpd5" name="Data final" width="25" order="2"/>
+        <timeline><![CDATA[2,0]]></timeline>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="50" order="0"/>
+        <field id="1" name="Função" width="50" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Brasil">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"/>
+        <date year="" month="4" date="21" type="HOLIDAY"/>
+        <date year="" month="5" date="1" type="HOLIDAY"/>
+        <date year="" month="9" date="7" type="HOLIDAY"/>
+        <date year="" month="10" date="12" type="HOLIDAY"/>
+        <date year="" month="11" date="1" type="HOLIDAY"/>
+        <date year="" month="11" date="2" type="HOLIDAY"/>
+        <date year="" month="11" date="15" type="HOLIDAY"/>
+        <date year="" month="12" date="25" type="HOLIDAY"/>
+        <date year="2012" month="2" date="20" type="HOLIDAY"/>
+        <date year="2012" month="2" date="21" type="HOLIDAY"/>
+        <date year="2012" month="4" date="6" type="HOLIDAY"/>
+        <date year="2012" month="4" date="8" type="HOLIDAY"/>
+        <date year="2012" month="6" date="7" type="HOLIDAY"/>
+        <date year="2005" month="3" date="25" type="HOLIDAY"/>
+        <date year="2006" month="4" date="14" type="HOLIDAY"/>
+        <date year="2007" month="2" date="19" type="HOLIDAY"/>
+        <date year="2007" month="2" date="20" type="HOLIDAY"/>
+        <date year="2007" month="4" date="6" type="HOLIDAY"/>
+        <date year="2007" month="6" date="7" type="HOLIDAY"/>
+        <date year="2008" month="3" date="21" type="HOLIDAY"/>
+        <date year="2009" month="4" date="10" type="HOLIDAY"/>
+        <date year="2010" month="4" date="2" type="HOLIDAY"/>
+        <date year="2011" month="4" date="22" type="HOLIDAY"/>
+        <date year="2011" month="4" date="24" type="HOLIDAY"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="15" name="Iniciação" color="#8cb6ce" meeting="false" start="2016-05-02" duration="4" complete="0" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+            <task id="17" name="Reunião Abertura" color="#8cb6ce" meeting="false" start="2016-05-02" duration="1" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="Identifica Necessidades" color="#8cb6ce" meeting="false" start="2016-05-03" duration="1" complete="0" expand="true"/>
+            <task id="19" name="Identifica interessados" color="#8cb6ce" meeting="false" start="2016-05-03" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="0" name="Planejamento" color="#8cb6ce" meeting="false" start="2016-05-06" duration="3" complete="0" expand="true">
+            <task id="26" name="Define Escopo" color="#8cb6ce" meeting="false" start="2016-05-06" duration="1" complete="0" expand="true">
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="30" name="Plano de Requisitos" color="#8cb6ce" meeting="false" start="2016-05-09" duration="1" complete="0" expand="true">
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" name="Definição de ferramentas" color="#8cb6ce" meeting="false" start="2016-05-06" duration="1" complete="0" expand="true"/>
+            <task id="33" name="Elaboração de cronograma" color="#8cb6ce" meeting="false" start="2016-05-06" duration="1" complete="0" expand="true"/>
+            <task id="34" name="Especificação de entregas" color="#8cb6ce" meeting="false" start="2016-05-10" duration="1" complete="0" expand="true"/>
+            <task id="35" name="Diagramas" color="#8cb6ce" meeting="false" start="2016-05-06" duration="1" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+                <depend id="47" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="2" name="Desenvolvimento" color="#8cb6ce" meeting="false" start="2016-05-09" duration="5" complete="0" expand="true">
+            <depend id="76" type="2" difference="0" hardness="Strong"/>
+            <task id="36" name="Sistema Web" color="#000000" meeting="false" start="2016-05-09" duration="5" complete="0" expand="true">
+                <task id="43" name="Plano de Teste" color="#8cb6ce" meeting="false" start="2016-05-09" duration="2" complete="0" expand="true">
+                    <depend id="45" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="45" name="Implementação" color="#8cb6ce" meeting="false" start="2016-05-11" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="47" name="Sistema Desktop" color="#000000" meeting="false" start="2016-05-09" duration="5" complete="0" expand="true">
+                <task id="50" name="Plano de Teste" color="#8cb6ce" meeting="false" start="2016-05-09" duration="2" complete="0" expand="true">
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="52" name="Implementação" color="#8cb6ce" meeting="false" start="2016-05-11" duration="3" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="76" name="Implantação" color="#8cb6ce" meeting="false" start="2016-05-16" duration="1" complete="0" expand="true">
+            <depend id="79" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="79" name="Entrega" color="#8cb6ce" meeting="false" start="2016-05-17" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Alexandre Braga " function="SoftwareDevelopment:3" contacts="" phone=""/>
+        <resource id="1" name="Arlei Fabiano Haefliger " function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="2" name="Douglas de Paula Gonçalves " function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="3" name="Luis Carlos da Silva " function="SoftwareDevelopment:4" contacts="" phone=""/>
+        <resource id="4" name="Neymar Daniel Corrêa Esteves " function="SoftwareDevelopment:5" contacts="" phone=""/>
+        <resource id="5" name="Roberto Inacio Molon " function="Default:1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="17" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="4" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="34" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="79" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd12" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="160" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="80" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="81" visible="true"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd13" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

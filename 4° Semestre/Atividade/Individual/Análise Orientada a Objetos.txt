@@ -1,0 +1,22 @@
+Conceitos:
+
+– Objetos = Num sistema de software objetos são agentes que agem interligados entre si, onde cada objeto realiza tarefas específicas e, através dessa interação, uma tarefa computacional é realizada.
+– UML (Unified Modeling Language ou Linguagem de Modelagem Unificada) = Linguagem padrão de diagramação, onde se visualizam os resultados da análise e do projeto.
+
+A Análise Orientada a Objetos (OOA) é um processo de desenvolvimento de sistemas que utiliza o conceito de objetos que interagem entre si e, através dessa interação, realizam tarefas computacionais.
+
+O ponto de partida para a OOA é criar um modelo descritivo contendo informações do projeto. Podemos chamar este artefato de proposta técnica, já que é ela que vai conter detalhes do problema a ser solucionado, objetivo do projeto, casos de uso, requisitos funcionais e não funcionais, as atividades do sistema e soluções propostas.
+
+Utilizando-se de padrões da UML, os requisitos do sistema são especificados, construindo artefatos necessários para documentação ao nível desejado.
+
+Durante todo o ciclo de vida do desenvolvimento (análise e programação), são gerados alguns diagramas que representam os objetos de análise, sendo eles: diagrama de caso de uso, de classe, de objeto, de componente, de implantação, de atividade, de estado, de colaboração e de seqüência.
+
+A imagem abaixo representa os diversos tipos de diagramas que podem ser elaborados durante todo o desenvolvimento do sistema:
+
+Os casos de uso especificam o comportamento do sistema em partes, ou seja, o conjunto de cenários onde, cada cenário possui uma seqüencia de passos que descreve o comportamento e interação entre os atores e o sistema.
+
+A análise envolve o detalhamento das entidades através de diagrama de classes que é uma representação da estrutura e relação das classes que servem de modelo para os objetos.
+
+Cada regra é transformada em um elemento e este poderá ser reutilizado em vários cenários e casos de uso atendendo assim, umas das características da orientação a objetos que é a reusabilidade.
+
+Todos os elementos/objetos são associados entre si facilitando a rastreabilidade e com isto, quando um elemento é alterado, é fácil identificar todos os casos de usos e cenários que serão impactados e deverão ser considerados no projeto.
